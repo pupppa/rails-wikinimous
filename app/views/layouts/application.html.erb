@@ -6,9 +6,57 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Slab">
+    <link rel="stylesheet" media="all" href="/assets/application-449d0fefa633bb508a1ba1d17c53f396b7d1d6e32f8fbdfcd0be310bf660200f.css" data-turbolinks-track="true" />
+    <script src="/assets/application-ba5b226a051fc7f84cc96c3d130ff272a3b4b5b6301781681ea7340d344c4189.js" data-turbolinks-track="true"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="a4K3yFXGbO6UqW72xepksW2baLIL8PHHc3JLPiiB8u0r/a7T05rN0pLMtovsDI6w8mKbSTyqOqvUan8kk3t4bw==" />
+
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
   </head>
 
   <body>
+
+
+  <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/articles">Wikinimous</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="/articles/new">New Article</a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
     <%= yield %>
+
+      </div>
+    </div>
+  </div>
   </body>
 </html>

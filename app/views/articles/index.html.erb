@@ -1,0 +1,13 @@
+<br>
+<br>
+<br>
+<div class="col-sm-8 col-sm-offset-2">
+<% @articles.each do |article| %>
+  <h3><%= link_to article.title, article_path(article) %></h3>
+  <p><%= truncate(article.content, length: 400) %></p>
+  <hr>
+<% end %>
+</div>
+
+
+
